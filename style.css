@@ -1,0 +1,169 @@
+/*common css start*/
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+/*common css finish*/
+/*header part start*/
+header{
+	padding: 10px 0px;
+	border-bottom: 1px solid #ddd;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.h_content{}
+.logo{
+	width: 10%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.navigation{
+	width: 50%;
+	float: right;
+}
+.navigation ul{
+	float: right;
+}
+.navigation ul li{
+	list-style: none;
+	float: left;
+}
+.navigation ul li a{
+	padding-left: 30px;
+	color: #0F2656;
+	text-decoration: none;
+}
+.navigation ul li a:hover{
+	color: #008AFF;
+}
+/*header part finish*/
+/*banner part start*/
+.banner{
+	padding: 50px 0px;
+}
+.wrapper2{
+	margin: 0 auto;
+	width: 60%;
+}
+.b_content{
+	text-align: center;
+}
+.b_content h1{
+	margin: 0px;
+	color:#0F2656 ;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.hi_cl {
+	color: #008AFF;
+}
+.b_content p{
+	color: #0F2656;
+	line-height: 30px;
+}
+.b_img{
+	margin: 0 auto;
+	width: 80%;
+}
+.b_img img{
+	width: 100%;
+	transition: .3s;
+}
+.b_img img:hover{
+	transform: scale(.8);
+}
+/*banner part finish*/
+/*success part start*/
+.success{
+	padding: 50px 0px;
+}
+.s_content{
+	overflow: hidden;
+}
+.s_left{
+	text-align: right;
+	width: 46%;
+	float: left;
+}
+.s_left h2{
+	margin: 0px;
+    font-size: 40px;
+    color: #F15767;
+}
+.s_left p{
+	padding-left: 5px;
+	color: #0F2656;
+    line-height: 25px;
+}
+.s_right{
+	width: 49%;
+	float: right;
+}
+.s_right h1{
+	margin: 0px;
+	color: #0F2656;
+    font-size: 50px;
+}
+/*success part finish*/
+/*service part start*/
+.services{
+	padding: 50px 0px;
+}
+.ser_content{
+	overflow: hidden;
+}
+.single{
+	padding:60px 2%;
+	width: 27%;
+	float: left;
+}
+.single img{
+	width: 100%;
+}
+.single_h2{
+	color:#0F2656 ;
+	font-size: 20px;
+}
+.single_text{
+	color:#0F2656 ;
+	line-height: 25px;
+}
+.sing_margin{
+	margin: 0px 3.5%;
+}
+.s1_bg{
+	background-color: #FDEBED;
+}
+.s2_bg{
+	background-color: #EBF9F4;
+}
+.s3_bg{
+	background-color: #FFF7E8;
+}
+/*service part finish*/
+/*footer part start*/
+footer{
+	padding: 30px 0px;
+	background-color:#008AFF ;
+}
+.f_content{
+	text-align: center;
+}
+.f_content p{
+	margin: 0;
+	font-size: 14px;
+	color: #ffffff;
+}
+.f_content span{
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+/*footer part finish*/
